@@ -1,0 +1,15 @@
+body
+{
+    background-color: darkgrey;
+    text-align: center;
+}
+h1
+{
+    font-family: Calibri;
+    border-bottom: solid;
+    border-bottom-color: black;
+}
+.box
+{
+    font-size: 60%;
+}
