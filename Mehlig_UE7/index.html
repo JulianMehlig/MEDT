@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8" />
+    <title>Uebung 7</title>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="sytle.css">
+</head>
+<body>
+
+<h1>Uebung 7 - Formulare - Zufallszahlen</h1>
+<br>
+<table>
+    <tr>
+        <td>
+            Wert a: <br> <input type="number"id="werta"/>
+        </td>
+
+
+        <td>
+            Wert b: <br> <input type="number" id="wertb"/>
+        </td>
+
+
+        <td>
+            Anzahl der Zufallszahlen: <br> <input type="number" id="zufall"/>
+        </td>
+
+
+        <td>
+            <input type="button" class="berechnen" value="berechnen" id="berechnen" onclick="berechnen()">
+        </td>
+
+
+
+        <td>
+            <div class="scrollable">
+                <p id="Ausgabe"></p>
+            </div>
+        </td>
+
+    </tr>
+
+    <tr>
+        <td colspan="100%">
+            <input type="button" value="clear" id="clear" class="button_clear"onclick="del()">
+        </td>
+    </tr>
+</table>
+</body>
+<footer>
+    (c) Julian Mehlig | 3AHIT | 2017
+</footer>
+</html>
